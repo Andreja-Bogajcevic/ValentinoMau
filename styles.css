@@ -1,0 +1,102 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200 !important;
+
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255)
+}
+
+body {
+    height: inherit;
+    width: inherit;
+    margin: 0;
+    padding: 0;
+
+    background-image: url("./content/images/hearts-pattern.png");
+    background-repeat: repeat;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 40%;
+    background-image: url("./content/images/mau.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 40px;
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    border: 4px solid #fd485b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dark-overlay {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.question-container {
+    margin-bottom: 8em;
+    text-align: center;
+}
+
+.question-text {
+    font-size: 3.5em;
+    color: rgb(248, 248, 248);
+}
+
+.buttons-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 5em;
+    height: 3em;
+
+    padding: 1em;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-text {
+    font-size: 2em;
+}
+
+
+
